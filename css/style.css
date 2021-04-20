@@ -127,8 +127,49 @@ body {
   margin-bottom: 26px;
 }
 
+.screenshots {
+  padding-bottom: 24px;
+}
+
 .screenshots__title {
   margin-bottom: 45px;
+}
+
+.screenshots__all_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.screenshots__all_item__point {
+  width: 568px;
+  height: 153px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+.screenshots__text {
+  width: 360px;
+  margin-left: 14px;
+}
+
+.screenshots__text__title_mini {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: -4px;
+  margin-bottom: 14px;
+}
+
+.screenshots__text__title_mini-low_mar_bot {
+  margin-bottom: 3px;
+}
+
+.screenshots__text__description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .reviews {
