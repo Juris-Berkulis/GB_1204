@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, "Roboto";
   color: #333333;
 }
 
@@ -97,7 +97,7 @@ body {
 
 .digital {
   background: #f5f5f5;
-  padding-bottom: 15px;
+  padding-bottom: 13px;
 }
 
 .digital__list {
@@ -174,11 +174,71 @@ body {
 
 .reviews {
   background: #f5f5f5;
+  padding-bottom: 18px;
+  margin-left: 14px;
+}
+
+.reviews__title {
+  margin-bottom: 31px;
+}
+
+.reviews__comments_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reviews__comment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-bottom: 22px;
+  padding-right: 6px;
+  padding-left: 7px;
+}
+
+.reviews__comment:nth-child(2n) {
+  padding-left: 0;
+}
+
+.reviews__comment__ava_img {
+  width: 63.46px;
+  height: 63.46px;
+  margin-top: 2px;
+}
+
+.reviews__comment__triangle_img {
+  width: 30px;
+  height: 24px;
+  margin-top: 40px;
+  margin-right: -7px;
 }
 
 .reviews__comment__recording {
   background: #ebebeb;
   border-radius: 5px;
+  width: 468px;
+  padding: 19px 0 5px 14px;
+  margin-left: -8px;
+}
+
+.reviews__comment__recording__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  font-family: Roboto;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.reviews__comment__recording__author {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #989898;
 }
 
 .subscription {
