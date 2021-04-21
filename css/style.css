@@ -241,15 +241,106 @@ body {
   color: #989898;
 }
 
+.subscriptions {
+  padding-bottom: 50px;
+}
+
+.subscriptions__title {
+  margin: 21px 0 26px 18px;
+}
+
+.all_subscriptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-right: 87px;
+  padding-left: 95px;
+}
+
 .subscription {
   background: #445161;
   border-radius: 5px;
+}
+
+.subscription_standard {
+  width: 300px;
+  height: 306px;
+}
+
+.subscription_premium {
+  width: 300px;
+  height: 404px;
+}
+
+.subscription_lux {
+  width: 300px;
+  height: 499px;
+}
+
+.subscription__name {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.subscription__name-standard {
+  margin: 13px 75px 9px 105px;
+}
+
+.subscription__name-premium {
+  margin: 14px 73px 8px 103px;
+}
+
+.subscription__name-lux {
+  margin: 14px 101px 8px 131px;
 }
 
 .subscription__price {
   background: #ffffff;
   border: 2px solid #445162;
   box-sizing: border-box;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 30px;
+  color: #445162;
+  padding: 23px 76px 12px 105px;
+}
+
+.subscription__points {
+  margin: 10px 0 16px 17px;
+}
+
+.subscription__name-premium {
+  margin-bottom: 9px;
+}
+
+.subscription__points-lux {
+  margin-bottom: 14px;
+}
+
+.subscription__points__item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0 20px;
+  line-height: 1.8;
+}
+
+.subscription__button {
+  width: 262px;
+  height: 43px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #445161;
+  margin: 0 20px;
+}
+
+.subscription__button__text {
+  margin-left: -1px;
 }
 
 .contacts {
