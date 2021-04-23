@@ -78,7 +78,7 @@ body {
   height: 68px;
 }
 
-.about_your_product__img {
+.about_your_product__video {
   margin: 45px 0 50px;
 }
 
@@ -342,6 +342,7 @@ body {
   color: #445161;
   margin: 0 20px;
   border-radius: 5px;
+  background: #ffffff;
 }
 
 .subscription__button__text {
@@ -365,16 +366,24 @@ body {
 }
 
 .input {
-  width: 500px;
+  width: 476px;
   margin-bottom: 14px;
   border-radius: 5px;
+  padding: 12px;
+  font-family: inherit;
+  background: #ffffff;
+}
+
+.input:hover {
+  background: #f5f5f5;
 }
 
 .input::placeholder {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  padding-left: 12px;
+  font-family: inherit;
+  color: #445162;
 }
 
 .contacts__connection__form {
@@ -383,15 +392,16 @@ body {
 }
 
 .contacts__input {
-  height: 43px;
+  height: 19px;
 }
 
 .contacts__textarea {
-  height: 173px;
+  resize: none;
 }
 
 .contacts__textarea::placeholder {
-  padding-top: 12px;
+  font-family: inherit;
+  color: #445162;
 }
 
 .contacts__button {
@@ -400,6 +410,14 @@ body {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+  border-radius: 5px;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.contacts__button:hover {
+  background: #ebebeb;
 }
 
 .contacts__button__text {
@@ -429,6 +447,18 @@ body {
   margin-left: 8px;
 }
 
+.contacts__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts__link:hover {
+  text-decoration: underline;
+  color: #0000ff;
+}
+
 .img_skype {
   width: 20px;
   height: 20px;
@@ -450,19 +480,19 @@ body {
 }
 
 .link_skype {
-  margin-bottom: 28px;
+  margin-bottom: 19px;
 }
 
 .link_icq {
-  margin-bottom: 22px;
+  margin-bottom: 19px;
 }
 
 .limk_mail {
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
 
 .link_phone {
-  margin-bottom: 55px;
+  margin-bottom: 45px;
 }
 
 .contacts__out_messagers__social {

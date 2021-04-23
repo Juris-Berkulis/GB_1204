@@ -31,7 +31,7 @@
                 <p class="about_your_product__text__description_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
                 <p class="about_your_product__text__description_2">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
             </div>
-            <img class="about_your_product__img" src="img/Video_About_your_product.jpg" alt="Video_About_your_product">
+            <video class="about_your_product__video" src="video/120.mp4" controls loop muted preload="auto" width="430" height="245" poster="img/120_Moment.jpg"></video>
         </section>
         <section class="digital">
             <div class="container">
@@ -173,9 +173,9 @@
                 <h2 class="title contacts__title">Contacts</h2>
                 <div class="contacts__connection">
                     <form class="contacts__connection__form" action="#">
-                        <input type="text" placeholder="Your name:" class="contacts__input input">
-                        <input type="email" placeholder="Your email:" class="contacts__input input">
-                        <textarea placeholder="Your message:" class="contacts__textarea input"></textarea>
+                        <input type="text" placeholder="Your name:" class="contacts__input input" minlength="2" maxlength="20" required>
+                        <input type="email" placeholder="Your email:" class="contacts__input input" required>
+                        <textarea placeholder="Your message:" class="contacts__textarea input" rows="10"></textarea>
                         <button type="submit" class="contacts__button"><span class="contacts__button__text">Send</span></button>
                     </form>
                     <div class="contacts__out_messagers">
@@ -183,25 +183,25 @@
                             <figure class="contacts__out_messagers__one_messager">
                                 <img class="img_skype" src="img/Skype_icon.png" alt="Skype">
                                 <figcaption class="contacts__out_messagers__one_messager__link link_skype">
-                                    <a href="skype:here_your_login_skype">here_your_login_skype</a>
+                                    <a href="skype:here_your_login_skype" class="contacts__link">here_your_login_skype</a>
                                 </figcaption>
                             </figure>
                             <figure class="contacts__out_messagers__one_messager">
                                 <img class="img_icq" src="img/icq_icon.png" alt="icq">
                                 <figcaption class="contacts__out_messagers__one_messager__link link_icq">
-                                    <a target="_blank" href="http://www.icq.com/whitepages/cmd.php?uin=279679659&action=message">279679659</a>
+                                    <a target="_blank" href="http://www.icq.com/whitepages/cmd.php?uin=279679659&action=message" class="contacts__link">279679659</a>
                                 </figcaption>
                             </figure>
                             <figure class="contacts__out_messagers__one_messager">
                                 <img class="img_mail" src="img/email_icon.png" alt="email">
                                 <figcaption class="contacts__out_messagers__one_messager__link limk_mail">
-                                    <a href="mailto:psdhtmlcss@mail.ru">psdhtmlcss@mail.ru</a>
+                                    <a href="mailto:psdhtmlcss@mail.ru" class="contacts__link">psdhtmlcss@mail.ru</a>
                                 </figcaption>
                             </figure>
                             <figure class="contacts__out_messagers__one_messager">
                                 <img class="img_phone" src="img/Phone_icon.png" alt="phone">
                                 <figcaption class="contacts__out_messagers__one_messager__link link_phone">
-                                    <a href="tel:+700045685555">80 00 4568 55 55</a>
+                                    <a href="tel:+700045685555" class="contacts__link">80 00 4568 55 55</a>
                                 </figcaption>
                             </figure>
                         </div>
