@@ -546,6 +546,11 @@ body {
 
 .img_out_messagers__social {
   margin-right: 3px;
+  fill: #ffffff;
+}
+
+.img_out_messagers__social:hover {
+  fill: #0000ff;
 }
 
 .footer {
