@@ -464,6 +464,11 @@ body {
   background: #ebebeb;
 }
 
+.contacts__button:active {
+  position: relative;
+  top: 5px;
+}
+
 .contacts__button__text {
   font-weight: bold;
   font-size: 16px;
@@ -569,10 +574,12 @@ body {
 .img_out_messagers__social {
   margin-right: 3px;
   fill: #ffffff;
+  transition: transform 1s linear;
 }
 
 .img_out_messagers__social:hover {
   fill: #0000ff;
+  transform: rotateY(360deg);
 }
 
 .footer {
